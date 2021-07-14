@@ -1,6 +1,13 @@
 # fileuploads
 cd into the project directory
 
-source the virtualenvironment 'env' and activate 
+Create a virtualenvironment
 
-do pip install -r requirements.txt
+Source the virtualenvironment and activate it
+
+Do:
+1. pip install -r requirements.txt
+
+2. python3 manage.py migrate
+
+3. python3 manage.py runserver
